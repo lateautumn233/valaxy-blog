@@ -28,3 +28,4 @@ public/feed.json
 # valaxy rss
 public/atom.xml
 .obsidian
+*.bak
