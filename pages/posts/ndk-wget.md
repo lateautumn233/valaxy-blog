@@ -1,13 +1,12 @@
 ---
 tags:
-  - post
   - Linux
   - Android
   - NDK
 title: ndk编译wget脚本
 summary: ""
 date: 2023-11-28T10:02:38.299Z
-
+modified: 2024-02-17T18:49:53+08:00
 ---
 
 # ndk编译wget脚本

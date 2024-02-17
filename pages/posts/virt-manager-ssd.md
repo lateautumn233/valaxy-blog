@@ -1,6 +1,5 @@
 ---
 tags:
-  - post
   - Linux
 title: virt-manager如何添加ssd设备和nvme设备
 sources:
@@ -16,7 +15,7 @@ date: 2023-11-03T06:53:32.471Z
 resources:
   - name: featured-image
     src: attachments/featured-image.png
-modified: 2024-02-17T08:38:47+08:00
+modified: 2024-02-17T18:50:02+08:00
 ---
 
 # virt-manager如何添加ssd设备和nvme设备

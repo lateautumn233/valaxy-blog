@@ -1,6 +1,5 @@
 ---
-tags:
-  - post
+tags: []
 title: Lxc on Android 📱
 sources:
   - xlog
@@ -14,7 +13,7 @@ date: 2023-09-02T20:53:12.731Z
 draft: true
 categories:
   - 容器
-modified: 2024-02-17T08:27:48+08:00
+modified: 2024-02-17T18:49:46+08:00
 ---
 
 # Lxc on Android 📱

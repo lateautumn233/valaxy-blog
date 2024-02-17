@@ -1,6 +1,5 @@
 ---
 tags:
-  - post
   - Linux
 title: linux网桥
 sources:
@@ -12,8 +11,8 @@ attributes:
   - value: false
     trait_type: xlog_disable_ai_summary
 date: 2023-11-20T04:16:10.717Z
-images: []
-
+images: 
+modified: 2024-02-17T18:49:34+08:00
 ---
 
 # linux网桥

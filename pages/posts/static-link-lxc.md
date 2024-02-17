@@ -1,6 +1,5 @@
 ---
 tags:
-  - post
   - Linux
 title: 静态编译lxc
 sources:
@@ -10,7 +9,7 @@ attributes:
   - value: jing-tai-bian-yi-lxcmd
     trait_type: xlog_slug
 date: 2023-09-03T05:59:49.842Z
-
+modified: 2024-02-17T18:49:56+08:00
 ---
 
 # 静态编译lxc

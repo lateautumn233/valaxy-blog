@@ -1,6 +1,5 @@
 ---
 tags:
-  - post
   - Linux
 title: Android原生运行Lxc
 sources:
@@ -14,7 +13,7 @@ attributes:
 date: 2023-09-03T05:59:49.873Z
 categories:
   - 容器
-modified: 2024-02-17T08:26:31+08:00
+modified: 2024-02-17T18:49:50+08:00
 ---
 
 # Android原生运行Lxc
