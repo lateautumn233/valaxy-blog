@@ -2,7 +2,7 @@
 title: Android运行lxd
 subtitle: 
 date: 2024-02-07T10:13:25+08:00
-draft: true
+draft: false
 author: qiuqiu
 authorLink: blog.qiuqiu233.xyz
 description: 
