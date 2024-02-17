@@ -10,7 +10,7 @@ attributes:
   - value: jing-tai-bian-yi-lxcmd
     trait_type: xlog_slug
 date: 2023-09-03T05:59:49.842Z
-
+modified: 2024-02-17T08:47:46+08:00
 ---
 
 # 静态编译lxc

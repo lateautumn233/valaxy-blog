@@ -1,24 +1,23 @@
 ---
-title: "Android运行lxd"
-subtitle: ""
+title: Android运行lxd
+subtitle: 
 date: 2024-02-07T10:13:25+08:00
 lastmod: 2024-02-07T10:13:25+08:00
 draft: true
-author: "qiuqiu"
-authorLink: "qiuqiu233.xyz"
-description: ""
-license: ""
-images: []
+author: qiuqiu
+authorLink: qiuqiu233.xyz
+description: 
+license: 
+images: 
 resources:
-- name: "featured-image"
-  src: "featured-image.png"
-
-tags: [lxd,lxc]
-categories: []
-
-featuredImage: ""
+  - name: featured-image
+    src: featured-image.png
+tags:
+  - lxd
+  - lxc
+categories: 
+featuredImage: 
 featuredImagePreview: ""
-
 hiddenFromHomePage: false
 hiddenFromSearch: false
 twemoji: false
@@ -28,7 +27,6 @@ fraction: true
 fontawesome: true
 linkToMarkdown: true
 rssFullText: false
-
 toc:
   enable: true
   auto: true
@@ -37,32 +35,19 @@ code:
   maxShownLines: 50
 math:
   enable: false
-  # ...
-mapbox:
-  # ...
+mapbox: 
 share:
   enable: true
-  # ...
 comment:
   enable: true
-  # ...
 library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
+  css: 
+  js: 
 seo:
   images: []
-  # ...
 ---
-
-简介：\
+![lxd.png](https://999-1257394446.cos.ap-hongkong.myqcloud.com/img/lxd.png)
+简介:
 LXD 是 Linux 容器 (LXC) 的开源容器管理扩展。LXD 既改进了现有的 LXC 功能，又提供了新的特性和功能来构建和管理 Linux 容器。
 
 <!-- more -->
@@ -100,7 +85,7 @@ lxc launch ubuntu:23.04 ubuntu
 ```
 调整lxc容器密码
 ```shell
-lxc exe  ubuntu -- passwd
+lxc exec ubuntu -- passwd
 lxc exec 容器名字 -- passwd
 # 二进制文件位置可能不同
 ```

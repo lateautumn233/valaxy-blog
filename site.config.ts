@@ -5,6 +5,7 @@ export default defineSiteConfig({
   lang: 'zh-CN',
   title: '秋秋',
   author: {
+    avatar: 'https://999-1257394446.cos.ap-hongkong.myqcloud.com/img/IMG_202310319387_2300x2300180.png',
     name: '秋秋',
   },
   description: 'Valaxy Theme Yun Preview.',
@@ -29,7 +30,7 @@ export default defineSiteConfig({
     },
     {
       name: '哔哩哔哩',
-      link: 'https://space.bilibili.com/1579790',
+      link: 'https://space.bilibili.com/383894969',
       icon: 'i-ri-bilibili-line',
       color: '#FF8EB3',
     },

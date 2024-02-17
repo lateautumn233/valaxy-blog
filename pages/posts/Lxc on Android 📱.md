@@ -11,14 +11,15 @@ attributes:
     trait_type: xlog_slug
   - value: false
     trait_type: xlog_disable_ai_summary
-date_published: 2023-09-03T05:59:49.873Z
-categories: ["容器"]
-
+date: 2023-09-03T05:59:49.873Z
+categories:
+  - 容器
+modified: 2024-02-17T08:26:31+08:00
 ---
 
 # Android原生运行Lxc
 
-![image.png](./attachments/33dfc6e078a74e2e8f9ce839b2c6d5e7.image.webp)
+![image.png](https://999-1257394446.cos.ap-hongkong.myqcloud.com/img/images.png)
 简介：\
 LXC是一种操作系统层虚拟化技术，为Linux内核容器功能的一个用户空间接口。它将应用软件系统打包成一个软件容器，内含应用软件本身的代码，以及所需要的操作系统核心和库。
 <!-- more -->

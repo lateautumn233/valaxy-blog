@@ -50,8 +50,9 @@ nmcli c add type bridge-slave autoconnect yes con-name enp3s0f3u2c2 master br0
 5.**重启Linux**
 
 
-![image.png](./attachments/cb563b2c109bda0bc90f52e408e1aa91.image.webp)
- ## GUI配置
+
+![cb563b2c109bda0bc90f52e408e1aa91.image.webp](https://999-1257394446.cos.ap-hongkong.myqcloud.com/img/cb563b2c109bda0bc90f52e408e1aa91.image.webp)
+## GUI配置
 **无线网卡需设置4addr模式**
 ```
 # /etc/udev/rules.d/91-wifi-4addr-mode.rules
@@ -59,15 +60,7 @@ ACTION=="add", SUBSYSTEM=="net", ATTRS{address}=="04:cf:4b:21:76:0e", RUN+="/usr
 
 #address为网卡mac地址
 ```
-![image.png](./attachments/0cdff1a1a157066100078b0a7b48a773.image.webp)
+![0cdff1a1a157066100078b0a7b48a773.image.webp](https://999-1257394446.cos.ap-hongkong.myqcloud.com/img/0cdff1a1a157066100078b0a7b48a773.image.webp)
 
-![image.png](./attachments/141491221067112b81cbc3ce514a1e06.image.webp)
+![image.png](https://999-1257394446.cos.ap-hongkong.myqcloud.com/img/141491221067112b81cbc3ce514a1e06.image.webp)
 **建议在常规配置上选中自动连接**
-![image.png](./attachments/beacaf4c3c8a5bd7b9a1a5afd4885941.image.webp)
-
-
-
-
-
-
-[]()
