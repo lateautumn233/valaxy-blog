@@ -2,10 +2,9 @@
 title: Android运行lxd
 subtitle: 
 date: 2024-02-07T10:13:25+08:00
-lastmod: 2024-02-07T10:13:25+08:00
 draft: true
 author: qiuqiu
-authorLink: qiuqiu233.xyz
+authorLink: blog.qiuqiu233.xyz
 description: 
 license: 
 images: 
@@ -45,6 +44,7 @@ library:
   js: 
 seo:
   images: []
+modified: 2024-02-17T11:29:29+08:00
 ---
 ![lxd.png](https://999-1257394446.cos.ap-hongkong.myqcloud.com/img/lxd.png)
 简介:
@@ -54,7 +54,7 @@ LXD 是 Linux 容器 (LXC) 的开源容器管理扩展。LXD 既改进了现有�
 
 
 ## 1. 安装lxd模块
-下载此[magisk模块](https://qiuqiu233.top/d/linux-deploy/lxd/LxdMagisk.zip)安装并重启
+下载此[magisk模块](https://alist.qiuqiu233.xyz/d/软件/lxd/lxd-android.zip)安装并重启
 ### 1.1. 创建容器
 随便找一个终端软件执行
 ```shell
@@ -91,8 +91,8 @@ lxc exec 容器名字 -- passwd
 ```
 ### 1.2. 配置网络
 (无需配置，自动处理)
-如果容器无法访问网络，请发送/data/lxd/var/log/network.log
-到lateautumn233@foxmail.com
+如果容器无法访问网络，请发送/data/lxd/var/log/network.log到
+lateautumn233@foxmail.com
 
 ### 2.1. web界面
 ```shell
