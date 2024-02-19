@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.qiuqiu233.xyz/</id>
+    <title>秋秋</title>
+    <updated>2024-02-19T09:56:19.420Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>秋秋</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://blog.qiuqiu233.xyz/"/>
+    <link rel="self" href="https://blog.qiuqiu233.xyz/atom.xml"/>
+    <subtitle>Valaxy Theme Yun Preview.</subtitle>
+    <logo>https://999-1257394446.cos.ap-hongkong.myqcloud.com/img/IMG_202310319387_2300x2300180.png</logo>
+    <icon>https://blog.qiuqiu233.xyz/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2024 © 秋秋</rights>
+    <entry>
+        <title type="html"><![CDATA[Android运行lxd]]></title>
+        <id>https://blog.qiuqiu233.xyz/posts/Android-lxd</id>
+        <link href="https://blog.qiuqiu233.xyz/posts/Android-lxd"/>
+        <updated>2024-02-07T02:13:25.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://999-1257394446.cos.ap-hongkong.myqcloud.com/img/lxd.png" alt="lxd.png"><br>
+简介:<br>
+LXD 是 Linux 容器 (LXC) 的开源容器管理扩展。LXD 既改进了现有的 LXC 功能，又提供了新的特性和功能来构建和管理 Linux 容器。</p>
+]]></content>
+        <author>
+            <name>秋秋</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-02-19T09:55:34.647Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Android原生运行Lxc]]></title>
+        <id>https://blog.qiuqiu233.xyz/posts/Lxc-on-Android</id>
+        <link href="https://blog.qiuqiu233.xyz/posts/Lxc-on-Android"/>
+        <updated>2023-09-03T05:59:49.873Z</updated>
+        <content type="html"><![CDATA[<h1>Android原生运行Lxc</h1>
+<p><img src="https://999-1257394446.cos.ap-hongkong.myqcloud.com/img/images.png" alt="image.png"><br>
+简介：<br>
+LXC是一种操作系统层虚拟化技术，为Linux内核容器功能的一个用户空间接口。它将应用软件系统打包成一个软件容器，内含应用软件本身的代码，以及所需要的操作系统核心和库。</p>
+]]></content>
+        <author>
+            <name>秋秋</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-02-19T09:55:34.647Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux网桥]]></title>
+        <id>https://blog.qiuqiu233.xyz/posts/linux-bridge</id>
+        <link href="https://blog.qiuqiu233.xyz/posts/linux-bridge"/>
+        <updated>2023-11-20T04:16:10.717Z</updated>
+        <content type="html"><![CDATA[<h1>linux网桥</h1>
+<blockquote>
+<p>在虚拟化环境中，你可能有多个虚拟机以及宿主机的网络接口，使用网桥可以使它们在同一个网络中进行通信。这有助于虚拟机之间的直接通信，并能够方便地与物理网络交互。</p>
+</blockquote>
+]]></content>
+        <author>
+            <name>秋秋</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-02-19T09:55:34.647Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ndk编译wget脚本]]></title>
+        <id>https://blog.qiuqiu233.xyz/posts/ndk-wget</id>
+        <link href="https://blog.qiuqiu233.xyz/posts/ndk-wget"/>
+        <updated>2023-11-28T10:02:38.299Z</updated>
+        <content type="html"><![CDATA[<h1>ndk编译wget脚本</h1>
+<pre><code class="language-shell">#!/bin/bash
+
+BASE_PATH=$(cd &quot;$(dirname &quot;$0&quot;)&quot; &amp;&amp; pwd)
+
+
+APP_ABI=(armeabi-v7</code></pre>
+]]></content>
+        <author>
+            <name>秋秋</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-02-19T09:55:34.647Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[静态编译lxc]]></title>
+        <id>https://blog.qiuqiu233.xyz/posts/static-link-lxc</id>
+        <link href="https://blog.qiuqiu233.xyz/posts/static-link-lxc"/>
+        <updated>2023-09-03T05:59:49.842Z</updated>
+        <content type="html"><![CDATA[<h1>静态编译lxc</h1>
+<h3>1. 安装依赖lxc依赖</h3>
+<pre><code class="language-shell">apt-get update -qq
+apt-get install --yes --no-install-recommends \
+apparmor bash-completion bridge-utils build-essential \
+busybox-static clang cloud-image-utils curl dbus debhelper debootstrap \
+devscripts dnsmasq-base docbook2x doxygen ed fakeroot file gcc graphviz \
+git iptables meson net-tools libapparmor-dev libcap-dev libgnutls28-dev liblua5.2-dev \
+libpam0g-dev libseccomp-dev libselinux1-dev libtool linux-libc-dev \
+llvm lsb-release make openssl pkg-config python3-all-dev \
+python3-setuptools rsync squashfs-tools uidmap unzip uuid-runtime \
+wget xz-utils systemd-coredump libdbus-1-dev
+apt-get remove --yes lxc-utils liblxc-common liblxc1 liblxc-dev
+</code></pre>
+]]></content>
+        <author>
+            <name>秋秋</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-02-19T09:55:34.647Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[virt-manager如何添加ssd设备和nvme设备]]></title>
+        <id>https://blog.qiuqiu233.xyz/posts/virt-manager-ssd</id>
+        <link href="https://blog.qiuqiu233.xyz/posts/virt-manager-ssd"/>
+        <updated>2023-11-03T06:53:32.471Z</updated>
+        <content type="html"><![CDATA[<h1>virt-manager如何添加ssd设备和nvme设备</h1>
+<h1><strong>ssd设备</strong></h1>
+<p>最近在virt-manager添加虚拟磁盘时发现，无论如何都会被识别成hdd，在查找一番后发现了<br>
+[how-t</p>
+]]></content>
+        <author>
+            <name>秋秋</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-02-19T09:55:34.647Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello, Valaxy!]]></title>
+        <id>https://blog.qiuqiu233.xyz/posts/hello-valaxy</id>
+        <link href="https://blog.qiuqiu233.xyz/posts/hello-valaxy"/>
+        <updated>2022-04-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+]]></content>
+        <author>
+            <name>秋秋</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2022-04-01T00:00:00.000Z</published>
+    </entry>
+</feed>

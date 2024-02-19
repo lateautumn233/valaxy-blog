@@ -1,0 +1,98 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "秋秋",
+    "home_page_url": "https://blog.qiuqiu233.xyz/",
+    "feed_url": "https://blog.qiuqiu233.xyz/feed.json",
+    "description": "Valaxy Theme Yun Preview.",
+    "icon": "https://999-1257394446.cos.ap-hongkong.myqcloud.com/img/IMG_202310319387_2300x2300180.png",
+    "author": {
+        "name": "秋秋",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<p><img src=\"https://999-1257394446.cos.ap-hongkong.myqcloud.com/img/lxd.png\" alt=\"lxd.png\"><br>\n简介:<br>\nLXD 是 Linux 容器 (LXC) 的开源容器管理扩展。LXD 既改进了现有的 LXC 功能，又提供了新的特性和功能来构建和管理 Linux 容器。</p>\n",
+            "url": "https://blog.qiuqiu233.xyz/posts/Android-lxd",
+            "title": "Android运行lxd",
+            "date_modified": "2024-02-07T02:13:25.000Z",
+            "date_published": "2024-02-19T09:55:34.647Z",
+            "author": {
+                "name": "秋秋",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>Android原生运行Lxc</h1>\n<p><img src=\"https://999-1257394446.cos.ap-hongkong.myqcloud.com/img/images.png\" alt=\"image.png\"><br>\n简介：<br>\nLXC是一种操作系统层虚拟化技术，为Linux内核容器功能的一个用户空间接口。它将应用软件系统打包成一个软件容器，内含应用软件本身的代码，以及所需要的操作系统核心和库。</p>\n",
+            "url": "https://blog.qiuqiu233.xyz/posts/Lxc-on-Android",
+            "title": "Android原生运行Lxc",
+            "date_modified": "2023-09-03T05:59:49.873Z",
+            "date_published": "2024-02-19T09:55:34.647Z",
+            "author": {
+                "name": "秋秋",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>linux网桥</h1>\n<blockquote>\n<p>在虚拟化环境中，你可能有多个虚拟机以及宿主机的网络接口，使用网桥可以使它们在同一个网络中进行通信。这有助于虚拟机之间的直接通信，并能够方便地与物理网络交互。</p>\n</blockquote>\n",
+            "url": "https://blog.qiuqiu233.xyz/posts/linux-bridge",
+            "title": "linux网桥",
+            "date_modified": "2023-11-20T04:16:10.717Z",
+            "date_published": "2024-02-19T09:55:34.647Z",
+            "author": {
+                "name": "秋秋",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>ndk编译wget脚本</h1>\n<pre><code class=\"language-shell\">#!/bin/bash\n\nBASE_PATH=$(cd &quot;$(dirname &quot;$0&quot;)&quot; &amp;&amp; pwd)\n\n\nAPP_ABI=(armeabi-v7</code></pre>\n",
+            "url": "https://blog.qiuqiu233.xyz/posts/ndk-wget",
+            "title": "ndk编译wget脚本",
+            "date_modified": "2023-11-28T10:02:38.299Z",
+            "date_published": "2024-02-19T09:55:34.647Z",
+            "author": {
+                "name": "秋秋",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>静态编译lxc</h1>\n<h3>1. 安装依赖lxc依赖</h3>\n<pre><code class=\"language-shell\">apt-get update -qq\napt-get install --yes --no-install-recommends \\\napparmor bash-completion bridge-utils build-essential \\\nbusybox-static clang cloud-image-utils curl dbus debhelper debootstrap \\\ndevscripts dnsmasq-base docbook2x doxygen ed fakeroot file gcc graphviz \\\ngit iptables meson net-tools libapparmor-dev libcap-dev libgnutls28-dev liblua5.2-dev \\\nlibpam0g-dev libseccomp-dev libselinux1-dev libtool linux-libc-dev \\\nllvm lsb-release make openssl pkg-config python3-all-dev \\\npython3-setuptools rsync squashfs-tools uidmap unzip uuid-runtime \\\nwget xz-utils systemd-coredump libdbus-1-dev\napt-get remove --yes lxc-utils liblxc-common liblxc1 liblxc-dev\n</code></pre>\n",
+            "url": "https://blog.qiuqiu233.xyz/posts/static-link-lxc",
+            "title": "静态编译lxc",
+            "date_modified": "2023-09-03T05:59:49.842Z",
+            "date_published": "2024-02-19T09:55:34.647Z",
+            "author": {
+                "name": "秋秋",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>virt-manager如何添加ssd设备和nvme设备</h1>\n<h1><strong>ssd设备</strong></h1>\n<p>最近在virt-manager添加虚拟磁盘时发现，无论如何都会被识别成hdd，在查找一番后发现了<br>\n[how-t</p>\n",
+            "url": "https://blog.qiuqiu233.xyz/posts/virt-manager-ssd",
+            "title": "virt-manager如何添加ssd设备和nvme设备",
+            "date_modified": "2023-11-03T06:53:32.471Z",
+            "date_published": "2024-02-19T09:55:34.647Z",
+            "author": {
+                "name": "秋秋",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Valaxy</h2>\n<p>Next Generation Static Blog Framework.</p>\n<p>Write your first post!</p>\n<h2>Usage</h2>\n<p>Modify `valaxy</p>\n",
+            "url": "https://blog.qiuqiu233.xyz/posts/hello-valaxy",
+            "title": "Hello, Valaxy!",
+            "date_modified": "2022-04-01T00:00:00.000Z",
+            "date_published": "2022-04-01T00:00:00.000Z",
+            "author": {
+                "name": "秋秋",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

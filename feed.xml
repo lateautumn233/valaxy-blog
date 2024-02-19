@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>秋秋</title>
+        <link>https://blog.qiuqiu233.xyz/</link>
+        <description>Valaxy Theme Yun Preview.</description>
+        <lastBuildDate>Mon, 19 Feb 2024 09:56:19 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>秋秋</title>
+            <url>https://999-1257394446.cos.ap-hongkong.myqcloud.com/img/IMG_202310319387_2300x2300180.png</url>
+            <link>https://blog.qiuqiu233.xyz/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2024 © 秋秋</copyright>
+        <atom:link href="https://blog.qiuqiu233.xyz/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Android运行lxd]]></title>
+            <link>https://blog.qiuqiu233.xyz/posts/Android-lxd</link>
+            <guid>https://blog.qiuqiu233.xyz/posts/Android-lxd</guid>
+            <pubDate>Mon, 19 Feb 2024 09:55:34 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://999-1257394446.cos.ap-hongkong.myqcloud.com/img/lxd.png" alt="lxd.png"><br>
+简介:<br>
+LXD 是 Linux 容器 (LXC) 的开源容器管理扩展。LXD 既改进了现有的 LXC 功能，又提供了新的特性和功能来构建和管理 Linux 容器。</p>
+]]></content:encoded>
+            <author>i@valaxy.site (秋秋)</author>
+        </item>
+        <item>
+            <title><![CDATA[Android原生运行Lxc]]></title>
+            <link>https://blog.qiuqiu233.xyz/posts/Lxc-on-Android</link>
+            <guid>https://blog.qiuqiu233.xyz/posts/Lxc-on-Android</guid>
+            <pubDate>Mon, 19 Feb 2024 09:55:34 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>Android原生运行Lxc</h1>
+<p><img src="https://999-1257394446.cos.ap-hongkong.myqcloud.com/img/images.png" alt="image.png"><br>
+简介：<br>
+LXC是一种操作系统层虚拟化技术，为Linux内核容器功能的一个用户空间接口。它将应用软件系统打包成一个软件容器，内含应用软件本身的代码，以及所需要的操作系统核心和库。</p>
+]]></content:encoded>
+            <author>i@valaxy.site (秋秋)</author>
+        </item>
+        <item>
+            <title><![CDATA[linux网桥]]></title>
+            <link>https://blog.qiuqiu233.xyz/posts/linux-bridge</link>
+            <guid>https://blog.qiuqiu233.xyz/posts/linux-bridge</guid>
+            <pubDate>Mon, 19 Feb 2024 09:55:34 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>linux网桥</h1>
+<blockquote>
+<p>在虚拟化环境中，你可能有多个虚拟机以及宿主机的网络接口，使用网桥可以使它们在同一个网络中进行通信。这有助于虚拟机之间的直接通信，并能够方便地与物理网络交互。</p>
+</blockquote>
+]]></content:encoded>
+            <author>i@valaxy.site (秋秋)</author>
+        </item>
+        <item>
+            <title><![CDATA[ndk编译wget脚本]]></title>
+            <link>https://blog.qiuqiu233.xyz/posts/ndk-wget</link>
+            <guid>https://blog.qiuqiu233.xyz/posts/ndk-wget</guid>
+            <pubDate>Mon, 19 Feb 2024 09:55:34 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>ndk编译wget脚本</h1>
+<pre><code class="language-shell">#!/bin/bash
+
+BASE_PATH=$(cd &quot;$(dirname &quot;$0&quot;)&quot; &amp;&amp; pwd)
+
+
+APP_ABI=(armeabi-v7</code></pre>
+]]></content:encoded>
+            <author>i@valaxy.site (秋秋)</author>
+        </item>
+        <item>
+            <title><![CDATA[静态编译lxc]]></title>
+            <link>https://blog.qiuqiu233.xyz/posts/static-link-lxc</link>
+            <guid>https://blog.qiuqiu233.xyz/posts/static-link-lxc</guid>
+            <pubDate>Mon, 19 Feb 2024 09:55:34 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>静态编译lxc</h1>
+<h3>1. 安装依赖lxc依赖</h3>
+<pre><code class="language-shell">apt-get update -qq
+apt-get install --yes --no-install-recommends \
+apparmor bash-completion bridge-utils build-essential \
+busybox-static clang cloud-image-utils curl dbus debhelper debootstrap \
+devscripts dnsmasq-base docbook2x doxygen ed fakeroot file gcc graphviz \
+git iptables meson net-tools libapparmor-dev libcap-dev libgnutls28-dev liblua5.2-dev \
+libpam0g-dev libseccomp-dev libselinux1-dev libtool linux-libc-dev \
+llvm lsb-release make openssl pkg-config python3-all-dev \
+python3-setuptools rsync squashfs-tools uidmap unzip uuid-runtime \
+wget xz-utils systemd-coredump libdbus-1-dev
+apt-get remove --yes lxc-utils liblxc-common liblxc1 liblxc-dev
+</code></pre>
+]]></content:encoded>
+            <author>i@valaxy.site (秋秋)</author>
+        </item>
+        <item>
+            <title><![CDATA[virt-manager如何添加ssd设备和nvme设备]]></title>
+            <link>https://blog.qiuqiu233.xyz/posts/virt-manager-ssd</link>
+            <guid>https://blog.qiuqiu233.xyz/posts/virt-manager-ssd</guid>
+            <pubDate>Mon, 19 Feb 2024 09:55:34 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>virt-manager如何添加ssd设备和nvme设备</h1>
+<h1><strong>ssd设备</strong></h1>
+<p>最近在virt-manager添加虚拟磁盘时发现，无论如何都会被识别成hdd，在查找一番后发现了<br>
+[how-t</p>
+]]></content:encoded>
+            <author>i@valaxy.site (秋秋)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hello, Valaxy!]]></title>
+            <link>https://blog.qiuqiu233.xyz/posts/hello-valaxy</link>
+            <guid>https://blog.qiuqiu233.xyz/posts/hello-valaxy</guid>
+            <pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+]]></content:encoded>
+            <author>i@valaxy.site (秋秋)</author>
+        </item>
+    </channel>
+</rss>

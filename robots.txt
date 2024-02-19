@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://blog.qiuqiu233.xyz/sitemap.xml
