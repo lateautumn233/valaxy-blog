@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://valaxy.site/',
+  url: 'https://blog.qiuqiu233.xyz',
   lang: 'zh-CN',
   title: '秋秋',
   author: {
